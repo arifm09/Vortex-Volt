@@ -14,7 +14,7 @@
     display: flex;              /* 🔥 Make children inline (row-wise) */
     align-items: center;        /* 🔥 Vertically center image & text */
     gap: 10px;                  /* Optional spacing between image and text */
-              /* Optional horizontal padding */
+    flex-wrap: nowrap;
 }
 
 h1 {
