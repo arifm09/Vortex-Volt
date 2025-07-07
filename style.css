@@ -34,7 +34,7 @@ h1 {
       text-shadow: 0 0 2px #39ff14, 0 0 4px #00ffcc;
     }
     h5 {
-      font-size: 16px; /* Smaller subheading */
+      font-size: 8px; /* Smaller subheading */
       margin-left: 8px;
       margin-top: 10px;
     }
@@ -47,7 +47,7 @@ h1 {
       margin-left: 8px;
     }
     h5 {
-      font-size: 14px; /* Even smaller for tiny screens */
+      font-size: 4px; /* Even smaller for tiny screens */
       margin-left: 6px;
       margin-top: 8px;
     }
