@@ -34,6 +34,13 @@ h1 {
         }
     }
 
+    @media only screen and (max-width: 480px) {
+        h1 {
+            font-size: 24px;
+            margin-left: 8px;
+        }
+    }
+
 #voltImg{
     margin-right: 20px;  
 }
