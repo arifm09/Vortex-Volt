@@ -14,8 +14,6 @@
     display: flex;              /* 🔥 Make children inline (row-wise) */
     align-items: center;        /* 🔥 Vertically center image & text */
     gap: 10px;                  /* Optional spacing between image and text */
-    flex-wrap: nowrap;
-    overflow-x: auto;
 }
 
 h1 {
@@ -26,6 +24,14 @@ h1 {
         color: #39ff14; /* Neon Green */
         font-family: 'Orbitron', sans-serif;
         text-shadow: 0 0 3px #39ff14, 0 0 6px #00ffcc;
+    }
+
+    @media only screen and (max-width: 768px) {
+        h1 {
+            font-size: 30px; /* Smaller on mobile */
+            margin-left: 10px; /* Reduced margin */
+            text-shadow: 0 0 2px #39ff14, 0 0 4px #00ffcc; /* Subtler glow */
+        }
     }
 
 #voltImg{
