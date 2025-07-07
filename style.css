@@ -15,6 +15,7 @@
     align-items: center;        /* 🔥 Vertically center image & text */
     gap: 10px;                  /* Optional spacing between image and text */
     flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
 h1 {
