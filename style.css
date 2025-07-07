@@ -26,20 +26,32 @@ h1 {
         text-shadow: 0 0 3px #39ff14, 0 0 6px #00ffcc;
     }
 
-    @media only screen and (max-width: 768px) {
-        h1 {
-            font-size: 30px; /* Smaller on mobile */
-            margin-left: 10px; /* Reduced margin */
-            text-shadow: 0 0 2px #39ff14, 0 0 4px #00ffcc; /* Subtler glow */
-        }
+  /* Tablet & Mobile (≤ 768px) */
+@media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 30px;
+      margin-left: 10px;
+      text-shadow: 0 0 2px #39ff14, 0 0 4px #00ffcc;
     }
-
-    @media only screen and (max-width: 480px) {
-        h1 {
-            font-size: 24px;
-            margin-left: 8px;
-        }
+    h5 {
+      font-size: 16px; /* Smaller subheading */
+      margin-left: 8px;
+      margin-top: 10px;
     }
+  }
+  
+  /* Small Phones (≤ 480px) */
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+      margin-left: 8px;
+    }
+    h5 {
+      font-size: 14px; /* Even smaller for tiny screens */
+      margin-left: 6px;
+      margin-top: 8px;
+    }
+  }
 
 #voltImg{
     margin-right: 20px;  
